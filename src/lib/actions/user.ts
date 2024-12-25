@@ -58,7 +58,7 @@
 
 
 import { connect } from '../database/db';
-import User, { IUser } from '../models/user';
+import User from '../models/user';
 
 interface CreateOrUpdateUserParams {
   id: string;
